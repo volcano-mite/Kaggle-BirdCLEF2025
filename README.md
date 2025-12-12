@@ -4,13 +4,13 @@
 
 This repository contains training and inference code for the [BirdCLEF 2025](https://www.kaggle.com/competitions/birdclef-2025) competition on Kaggle. The task is to identify bird species from audio recordings using deep learning techniques.
 You can check it on the kaggle:
-Model train: https://www.kaggle.com/code/licanhou/model-train
-Inference: https://www.kaggle.com/code/licanhou/inference
+- Model train: https://www.kaggle.com/code/licanhou/model-train
+- Inference: https://www.kaggle.com/code/licanhou/inference
 
-dataset:
-training data: https://www.kaggle.com/competitions/birdclef-2025/data
-Mel-Spectrom: https://www.kaggle.com/datasets/kadircandrisolu/birdclef25-mel-spectrograms
-Test data is unavailable on Kaggle. And you can only see the test score once you submit.
+### Dataset
+- training data: https://www.kaggle.com/competitions/birdclef-2025/data
+- Mel-Spectrom: https://www.kaggle.com/datasets/kadircandrisolu/birdclef25-mel-spectrograms
+- Test data is unavailable on Kaggle. And you can only see the test score once you submit.
 
 
 ### Model Architecture
@@ -126,7 +126,7 @@ The training script will:
 - Best model saved to: `/kaggle/working/model/best_model.pth`
 - Contains: `model_state_dict` and `cfg` configuration
 - Evaluation metric: ROC-AUC score
-- Training typically takes 20-30 minutes with GPU
+- Training typically takes 2-3 hours with GPU
 
 ---
 
@@ -250,8 +250,8 @@ soundscape_123_10,0.2,0.1,...,0.3
 ```
 
 ### Training Time
-- Single model: 1-2 hours (Kaggle GPU)
-- Full pipeline: 2-3 hours including data prep
+- Single model: 2-3 hours (Kaggle GPU)
+- Full pipeline: 3-4 hours including data prep
 
 ---
 
